@@ -38,4 +38,7 @@
     5）统计每个cell的梯度直方图（不同梯度的个数），即可形成每个cell的descriptor；
     6）将每几个cell组成一个block（例如3*3个cell/block），一个block内所有cell的特征descriptor串联起来便得到该block的HOG特征descriptor。
     7）将图像image内的所有block的HOG特征descriptor串联起来就可以得到该image（你要检测的目标）的HOG特征descriptor了。
-       这个就是最终的可供分类使用的特征向量了。
+       这个就是最终的可供分类使用的特征向量了。
+可以借助下面这张图来理解：
+
+![](https://github.com/cryer/face-detection/raw/master/image/I3}1~E1EJITR}DDU(1_9CUW.png)
